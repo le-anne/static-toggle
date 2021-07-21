@@ -4,22 +4,23 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding: 25px;
   color: black;
+  height: 98vh;
 }
 
 @media screen and (max-width: 600px) {
   body {
-  background-image: url("https://i.ibb.co/jzn3nMn/22-C41-A64-2-CC6-43-B7-A955-89-E830-E40-A56.png");
-  background-color: orchid;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  padding: 25px;
-  color: black;
+    background-image: url("https://i.ibb.co/jzn3nMn/22-C41-A64-2-CC6-43-B7-A955-89-E830-E40-A56.png");
+    background-color: orchid;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 25px;
+    color: black;
     background-size: contain;
     background-position: center center;
     background-attachment: fixed;
+    height: 80vh;
   }
 }
 
@@ -39,10 +40,14 @@ body {
   color: white;
 }
 
+.dark-mode img {
+  filter: drop-shadow(3px 5px 2px rgb(200 200 200 / 0.4));
+}
+
 input {
   float: right;
- padding: 2px;
-  background-color: rgba(64, 64, 64, .5);
+  padding: 2px;
+  background-color: rgba(64, 64, 64, 0.5);
   border-radius: 50%;
   text-align: center;
 }
@@ -244,7 +249,7 @@ input {
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -258,8 +263,8 @@ input {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -270,8 +275,8 @@ input {
   left: 4px;
   bottom: 4px;
   background-color: #808080;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -279,7 +284,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -295,4 +300,31 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.links a {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 50px;
+  align-items: baseline;
+  padding-left: 70%;
+}
+
+.links {
+  padding-top: 11%;
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 10px;
+    height: 150px;
+    bottom: 0px;
+    right: 25%;
+    left: 50%;
+    margin-left: -150px;
+  }
 }
