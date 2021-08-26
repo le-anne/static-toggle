@@ -305,7 +305,7 @@ input:checked + .slider:before {
 .links a {
   display: flex;
   flex-direction: column;
-  height: 100px;
+  height: 50px;
   width: 50px;
   align-items: baseline;
   padding-left: 70%;
