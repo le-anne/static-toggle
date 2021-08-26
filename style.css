@@ -1,6 +1,6 @@
 body {
-  background-image: url("https://i.ibb.co/jzn3nMn/22-C41-A64-2-CC6-43-B7-A955-89-E830-E40-A56.png");
-  background-color: orchid;
+  background-image: url("https://i.ibb.co/F6XGQLR/Monoline-Wear-Fashion-Minimalist-Logo.png");
+  background-color: #FF00CC;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -10,8 +10,8 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: url("https://i.ibb.co/jzn3nMn/22-C41-A64-2-CC6-43-B7-A955-89-E830-E40-A56.png");
-    background-color: orchid;
+    background-image: url("https://i.ibb.co/F6XGQLR/Monoline-Wear-Fashion-Minimalist-Logo.png");
+    background-color: #FF00CC;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
