@@ -1,6 +1,6 @@
 body {
-  background-image: url("https://i.ibb.co/F6XGQLR/Monoline-Wear-Fashion-Minimalist-Logo.png");
-  background-color: #FF00CC;
+  background-image: url("https://i.ibb.co/WkBVgFq/Monoline-Wear-Fashion-Minimalist-Logo.png");
+  background-color: #F1BEA1;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -10,8 +10,8 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: url("https://i.ibb.co/F6XGQLR/Monoline-Wear-Fashion-Minimalist-Logo.png");
-    background-color: #FF00CC;
+    background-image: url("https://i.ibb.co/WkBVgFq/Monoline-Wear-Fashion-Minimalist-Logo.png");
+    background-color: #F1BEA1;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -36,7 +36,7 @@ body {
 }
 
 .dark-mode {
-  background-color: #263052;
+  background-color: #421C06;
   color: white;
 }
 
