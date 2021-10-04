@@ -1,6 +1,6 @@
 body {
-  background-image: url("https://i.ibb.co/WkBVgFq/Monoline-Wear-Fashion-Minimalist-Logo.png");
-  background-color: #F1BEA1;
+  background-image: url("https://i.ibb.co/qMHm8WW/Monoline-Wear-Fashion-Minimalist-Logo-1.png");
+  background-color: #F3DFC1;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -10,8 +10,8 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: url("https://i.ibb.co/WkBVgFq/Monoline-Wear-Fashion-Minimalist-Logo.png");
-    background-color: #F1BEA1;
+    background-image: url("https://i.ibb.co/qMHm8WW/Monoline-Wear-Fashion-Minimalist-Logo-1.png");
+    background-color: #F3DFC1;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -36,12 +36,13 @@ body {
 }
 
 .dark-mode {
-  background-color: #421C06;
+  background-color: #034C3C;
   color: white;
+  background-image: url("https://i.ibb.co/mCptnVd/Monoline-Wear-Fashion-Minimalist-Logo-2.png");
 }
 
 .dark-mode img {
-  filter: drop-shadow(3px 5px 2px rgb(200 200 200 / 0.4));
+  filter: drop-shadow(3px 5px 2px rgb(203 212 194 / 0.4));
 }
 
 input {
@@ -244,6 +245,8 @@ input {
 .switch {
   float: right;
   position: relative;
+  margin-right: 25px;
+  margin-top: 15px;
   display: inline-block;
   width: 60px;
   height: 34px;
@@ -305,7 +308,7 @@ input:checked + .slider:before {
 .links a {
   display: flex;
   flex-direction: column;
-  height: 100px;
+  height: 50px;
   width: 50px;
   align-items: baseline;
   padding-left: 70%;
